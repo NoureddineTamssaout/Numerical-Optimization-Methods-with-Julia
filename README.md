@@ -1,34 +1,29 @@
 # Numerical-Optimization-Methods-with-Julia
 
-
-This repository contains a collection of Jupyter Notebooks that implement and analyze various optimization methods. These methods are essential for solving unconstrained and constrained optimization problems, commonly encountered in scientific computing, machine learning, and high-performance computing. All implementations are done using the **Julia programming language**, known for its high performance in numerical computing.
+This repository contains a collection of Jupyter Notebooks implementing and analyzing numerical optimization methods. These methods are implemented using the **Julia programming language**, known for its performance and efficiency in numerical and scientific computing. The repository provides a practical and theoretical foundation for solving both unconstrained and constrained optimization problems.
 
 ## Notebooks Overview
 
-1. **`conjugate_gradient_method.ipynb`**:
+1. **`armijo.ipynb`**:
+   - Demonstrates the implementation of the Armijo rule for step-size selection in optimization algorithms.
+   - Aims to enhance convergence while ensuring numerical stability.
+
+2. **`conjugate_gradient_method.ipynb`**:
    - Implements the Conjugate Gradient Method.
-   - Designed for solving large-scale linear systems and optimization problems.
-   - Provides insights into convergence properties and efficiency.
+   - Useful for solving large-scale optimization problems and systems of linear equations.
+   - Includes insights into the method's efficiency and convergence behavior.
 
-2. **`armijo.ipynb`**:
-   - Demonstrates the Armijo rule for step-size selection in optimization algorithms.
-   - Focuses on improving convergence while maintaining numerical stability.
-
-3. **`BFGS.ipynb`**:
-   - Implements the Broyden–Fletcher–Goldfarb–Shanno (BFGS) algorithm.
-   - A quasi-Newton method for solving unconstrained optimization problems.
-   - Includes discussions on approximation of the Hessian matrix.
+3. **`gradient_descent_method.ipynb`**:
+   - Implements the Gradient Descent Method.
+   - A foundational optimization algorithm for minimizing differentiable functions.
+   - Includes step-size strategies and visualization of convergence.
 
 4. **`kkt.ipynb`**:
    - Explores the Karush–Kuhn–Tucker (KKT) conditions.
-   - A method for solving constrained optimization problems.
-   - Provides examples and sensitivity analysis of the method.
+   - Focuses on solving constrained optimization problems.
+   - Includes examples and sensitivity analysis for the method.
 
-5. **`least_squares_method.ipynb`**:
-   - Implements the Least Squares Method.
-   - Suitable for data fitting and solving overdetermined systems of equations.
-   - Discusses numerical efficiency and practical applications.
-
-6. **`wolfe_method.ipynb`**:
-   - Explores the Wolfe conditions for line search in optimization.
-   - Provides practical insights into ensuring sufficient decrease and curvature.
+5. **`wolfe_method.ipynb`**:
+   - Explores Wolfe conditions for line search in optimization.
+   - Ensures sufficient decrease and curvature conditions in step-size selection.
+   - Provides practical examples and visualizations.
