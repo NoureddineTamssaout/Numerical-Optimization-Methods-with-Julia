@@ -16,7 +16,6 @@ This repository contains a collection of Jupyter Notebooks implementing and anal
 3. **`gradient_descent_method.ipynb`**:
    - Implements the Gradient Descent Method.
    - A foundational optimization algorithm for minimizing differentiable functions.
-   - Includes step-size strategies and visualization of convergence.
 
 4. **`kkt.ipynb`**:
    - Explores the Karush–Kuhn–Tucker (KKT) conditions.
@@ -26,4 +25,3 @@ This repository contains a collection of Jupyter Notebooks implementing and anal
 5. **`wolfe_method.ipynb`**:
    - Explores Wolfe conditions for line search in optimization.
    - Ensures sufficient decrease and curvature conditions in step-size selection.
-   - Provides practical examples and visualizations.
